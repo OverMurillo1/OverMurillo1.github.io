@@ -1,0 +1,17 @@
+html body{
+    font-family: 'Arsenal', sans-serif;
+}
+.nav_style{
+    background-color: #39b4e0;
+}
+.section_main{
+    margin-top: 25px;
+}
+.image img{
+    width: 350px;
+    height: 100%;
+    padding: 20px;
+}
+.section_projects{
+    margin-top: 25px;
+}
