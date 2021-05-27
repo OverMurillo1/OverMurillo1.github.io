@@ -1,8 +1,16 @@
 html body{
     font-family: 'Arsenal', sans-serif;
+    background-image: linear-gradient(to right, #ffe4b1, #ffe3cf, #ffeaee, #fff5ff, #ffffff);
+    scroll-behavior: smooth;
 }
 .nav_style{
     background-color: #39b4e0;
+}
+ul{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
 }
 .section_main{
     margin-top: 25px;
@@ -17,4 +25,26 @@ html body{
 }
 footer{
     margin-top: 25px;
+}
+img:hover{
+    filter: opacity(.5);
+    cursor: pointer;
+}
+div h1{
+    line-height: normal;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+div .parraf{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+.exp{
+    margin-top: 25px;
+}
+.sub_title{
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
