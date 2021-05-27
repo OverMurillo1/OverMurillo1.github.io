@@ -1,10 +1,14 @@
 html body{
     font-family: 'Arsenal', sans-serif;
-    background-image: linear-gradient(to right, #ffe4b1, #ffe3cf, #ffeaee, #fff5ff, #ffffff);
+    /*background-image: linear-gradient(to right, #ffe4b1, #ffe3cf, #ffeaee, #fff5ff, #ffffff);*/
     scroll-behavior: smooth;
+    background: #232321;
 }
 .nav_style{
     background-color: #39b4e0;
+}
+.text_color{
+    color: #fff;
 }
 ul{
     list-style: none;
@@ -23,12 +27,10 @@ ul{
 .section_projects{
     margin-top: 25px;
 }
-footer{
+footer section{
     margin-top: 25px;
-}
-img:hover{
-    filter: opacity(.5);
-    cursor: pointer;
+    background-color: #39b4e0;
+    color: #fff;
 }
 div h1{
     line-height: normal;
@@ -47,4 +49,19 @@ div .parraf{
     margin-bottom: 15px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #fff;
+}
+.sub_title_1{
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+}
+img:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
