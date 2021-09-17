@@ -1,173 +1,250 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="es-CO">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Over Murillo Portafolio</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Jhampier Murillo Portafolio</title>
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <header class="">
-        <nav class="navbar navbar-expand-lg navbar-light nav_style">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Over Murillo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#proyectos">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+  <ul class="nav nav-pills mb-3 justify-content-center list_menu" id="pills-tab" role="tablist">
+    <li class="nav-item item_list" role="presentation">
+      <button class="nav-link item_button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+        type="button" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</button>
+    </li>
+    <li class="nav-item item_list" role="presentation">
+      <button class="nav-link item_button" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-proyec1"
+        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Proyecto 1</button>
+    </li>
+    <li class="nav-item item_list" role="presentation">
+      <button class="nav-link item_button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-proyec2"
+        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Proyecto 2</button>
+    </li>
+    <li class="nav-item item_list" role="presentation">
+      <button class="nav-link item_button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-proyec3"
+        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Proyecto 3</button>
+    </li>
+    <li class="nav-item item_list" role="presentation">
+      <button class="nav-link item_button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contacto"
+        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contacto</button>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="container">
+        <div class="card mb-3 border-0 bg-transparent">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/front.jpg" alt="" class="img-fluid rounded-start">
             </div>
-        </nav>
-    </header>
-    <main class="container section_main">
-        <section class="row">
-            <div class="col-sm-6 text-center">
-                <picture class="image">
-                    <img src="img/front.jpg" alt="Imagen Front" class="img-fluid img-thumbnail">
-                </picture>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="text-center">¡Bienvenidos!</h1>
+                <p class="card-text parraf">Me llamo Jhampier Murillo, soy un programador de software. Tengo experiencia
+                  en
+                  elaboración de encuestas en plataformas como Open Data Kit y manejo programas de visualización de
+                  datos como Microsoft Bi y Google Data Studio. Recientemente he buscado nuevos caminos y me he
+                  capacitado en el desarrollo web enfocándome en la elaboración de aplicación y como Front End con
+                  frameworks, como Angular.</p>
+                <div class="container-fluid exp_list">
+                  <div class="col">
+                    <div class="col-12 col-md-6 ">
+                      <h5 class="text-muted">Experiencia</h5>
+                      <p class="card-text parraf_list">Mi experiencia como programador de software puede ser comprobada
+                        en las siguientes empresas:</p>
+                      <ul class="exp_list_items">
+                        <li><a href="https://proyectamoscolombia.com/">Proyectamos Colombia S.A.S</a></li>
+                        <li><a href="https://www.ipsos.com/es-co">Ipsos Colombia</a></li>
+                        <li><a href="https://www.kantar.com/latin-america?par=co">Kantar</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <h5 class="text-muted">Habilidades</h5>
+                      <p class="card-text parraf_list">Estas son algunas de mis Aptitudes</p>
+                      <ul class="exp_list_items">
+                        <li>Disciplina</li>
+                        <li>Flexibilidad</li>
+                        <li>Organización</li>
+                        <li>Cumplimiento</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 text-center text_color">
-                <h1>¡Hola!</h1>
-                <p class="parraf">Me llamo Jhampier Murillo, soy un programador de software. Tengo experiencia en
-                    elaboración de encuestas en plataformas como Open Data Kit y manejo programas de visualización de
-                    datos como Microsoft Bi y Google Data Studio. Recientemente he buscado nuevos caminos y me he
-                    capacitado en el desarrollo web enfocándome en la elaboración de aplicación y como Front End con
-                    frameworks, como Angular.
-                </p>
-                <div class="exp">
-                    <dl class="row exp">
-                        <dt class="col-sm-3">Experiencia</dt>
-                        <dd class="col-sm-9">
-                            <p>Mi experiencia como programador de software puede ser comprobada en las siguientes
-                                empresas: </p>
-                            <ul class="list">
-                                <li><a href="https://proyectamoscolombia.com/">Proyectamos Colombia S.A.S</a></li>
-                                <li><a href="https://www.ipsos.com/es-co">Ipsos Colombia</a></li>
-                                <li><a href="https://www.kantarworldpanel.com/co">Kantar</a></li>
-                            </ul>
-                        </dd>
-                    </dl>
-                    <dl class="row">
-                        <dt class="col-sm-3">Habilidades</dt>
-                        <dd class="col-sm-9">
-                            <p>Estas son algunas de mis Aptitudes</p>
-                            <p>
-                                Disciplina, flexibilidad, organización, cumplimiento, estoy dispuesto a asumir retos.
-                            </p>
-                        </dd>
-                    </dl>
-                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-proyec1" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="container">
+        <div class="card mb-3 border-0 bg-transparent">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/shpList.jpg" alt="" class="img-fluid rounded-start">
             </div>
-        </section>
-        <section class="section_projects">
-            <h2 class="text-center sub_title" id="proyectos">Proyectos</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="img/shpList.jpg" alt="Sin Imagen Demo Shopping List" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title sub_title_1">Shoping List</h5>
-                            <p class="card-text parraf">Single-page application (SPA) creada en Angular con Bulma como
-                                Framework CSS. Esta SPA tiene como objetivo realizar el ingreso y eliminación de
-                                elementos por medio de un ID, además es posible realizar la suma de los elementos desde
-                                la página principal y la activación de los elementos dentro de la lista.</p>
-                            <a href="https://compras-85b79.firebaseapp.com/" class="card-link">WebSite</a>
-                            <a href="https://github.com/OverMurillo1/shoping_list.git" class="card-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="img/rickApp.jpg" alt="Sin Imagen Demo rick and morty" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title sub_title_1">Rick and Morty</h5>
-                            <p class="card-text parraf">Single-page application(SPA) creada en Angular con SCSS, Pagina
-                                web
-                                creada con una conexion a una API para la optencion de los personas de la famosa serie
-                                Rick and Morty esta pagina contine un buscador para filtrar a los personasjes, tambien
-                                se puede agregar a la pagina principal los personajes favoritos y de la misma forma
-                                eliminarlo</p>
-                            <a href="https://rickandmortyapp-6bee2.firebaseapp.com/characters-list"
-                                class="card-link">WebSite</a>
-                            <a href="https://github.com/OverMurillo1/RickAndMorty.git" class="card-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="img/login.jpg" alt="Sin Imagen Demo Games DB" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title sub_title_1">Login</h5>
-                            <p class="card-text parraf">Login simple de un usuario nuevo o ya registrado. Esta
-                                aplicación está conectada a Google Firebase para guardar, editar o borrar los usuarios
-                                creados.</p>
-                            <a href="https://logindemo-be435.firebaseapp.com/form class=" class="card-link">WebSite</a>
-                            <a href="https://github.com/OverMurillo1/loginDemo.git" class="card-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-    </main>
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <section id="contacto">
-            <h3 class="text-center sub_title">Contacto</h3>
-            <div class="container text-center text-md-start mt-5">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3"></i>Over Murillo</h6>
-                        <p>Puedes contactarme por todos los medios dados en esta pagina para realizar cualquier consulta
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Redes</h6>
-                        <p><i class="fas fa-home me-3"></i><a
-                                href="https://www.linkedin.com/in/over-murillo-018270123/">LinkedIn</a></p>
-                        <p><i class="fas fa-envelope me-3"></i><a href="https://github.com/OverMurillo1">GitHub</a></p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                        <p><i class="fas fa-phone me-3"></i>(57) 319 580 2661</p>
-                        <p><i class="fas fa-envelope me-3"></i>murilloover@gmail.com</p>
-                        <p><i class="fas fa-home me-3"></i> Bogotá D.C. - Colombia</p>
-                    </div>
-                </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="text-center">Shoping List</h2>
+                <p class="card-text parraf">Single-page application (SPA) creada en Angular con Bulma como Framework
+                  CSS. Esta SPA tiene como objetivo realizar el ingreso y eliminación de elementos por medio de un ID,
+                  además es posible realizar la suma de los elementos desde la página principal y la activación de los
+                  elementos dentro de la lista..</p>
+                <section class="links_section">
+                  <p>Lo pudes ver en los siguientes link:</p>
+                  <a href="https://compras-85b79.firebaseapp.com/">WebSite</a>
+                  <a href="https://github.com/OverMurillo1/shoping_list" class="links_section_children">GitHub</a>
+                </section>
+              </div>
             </div>
-        </section>
-    </footer>
-    <script src="main.js" async defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
-    </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-proyec2" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="container">
+        <div class="card mb-3 border-0 bg-transparent">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/rickApp.jpg" alt="" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="text-center">Rick and Morty</h2>
+                <p class="card-text parraf">Single-page application(SPA) creada en Angular con SCSS, Pagina web creada
+                  con una conexion a una API para la optencion de los personas de la famosa serie Rick and Morty esta
+                  pagina contine un buscador para filtrar a los personasjes, tambien se puede agregar a la pagina
+                  principal los personajes favoritos y de la misma forma eliminarlo</p>
+                <section class="links_section">
+                  <p>Lo pudes ver en los siguientes link:</p>
+                  <a href="https://rickandmortyapp-6bee2.firebaseapp.com/">WebSite</a>
+                  <a href="https://github.com/OverMurillo1/RickAndMorty" class="links_section_children">GitHub</a>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-proyec3" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="container">
+        <div class="card mb-3 border-0 bg-transparent">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/login.jpg" alt="" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="text-center">Login</h2>
+                <p class="card-text parraf">Login simple de un usuario nuevo o ya registrado. Esta aplicación está
+                  conectada a Google Firebase para guardar, editar o borrar los usuarios creados.</p>
+                <section class="links_section">
+                  <p>Lo pudes ver en los siguientes link:</p>
+                  <a href="https://logindemo-be435.firebaseapp.com/form">WebSite</a>
+                  <a href="https://github.com/OverMurillo1/loginDemo" class="links_section_children">GitHub</a>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-contacto" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="container">
+        <div class="card mb-3 border-0 bg-transparent">
+          <h2>Contacto</h2>
+          <div class="row g-0">
+            <form action="" class="form">
+              <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre Completo">
+                    <label for="floatingInputGrid">Nombre </label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputGrid" placeholder="Numero de contacto">
+                    <label for="floatingInputGrid">Numero</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre Empresa">
+                    <label for="floatingInputGrid">Empresa</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="email">
+                    <label for="floatingInputGrid">Correo</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Deja tu comentario aqui" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comentarios</label>
+              </div>
+            </form>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#myModal">Enviar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="basicModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="basicModalLabel">Datos de Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Puedes contacterme por las siguntes vias:
+                <ul class="exp_list_items">
+                  <li>Correo Electronico: murilloover@gmail.com</li>
+                  <li><a href="https://www.linkedin.com/in/over-murillo-018270123">Linkedln</a></li>
+                  <li><a href="https://github.com/OverMurillo1/OverMurillo1">GitHub</a></li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+      </script>
+      <script src="main.js"></script>
 </body>
 
 </html>
